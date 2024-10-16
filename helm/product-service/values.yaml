@@ -3,11 +3,11 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-CONFIG_SERVER: "http://10.0.0.2:30090"
+CONFIG_SERVER: "http://54.159.142.36:30090"
 ENV: "prod"
 
 image:
-  repository: lugar2020/product-service
+  repository: saigopireddi/product-service
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
