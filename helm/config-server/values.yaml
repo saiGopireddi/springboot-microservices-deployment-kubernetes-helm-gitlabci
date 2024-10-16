@@ -6,7 +6,7 @@ replicaCount: 1
 GIT_URL_CONFIG: "https://github.com/kemanedonfack/ecommerce-configurations.git"
 
 image:
-  repository: lugar2020/config-server
+  repository: saigopireddi/config-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
